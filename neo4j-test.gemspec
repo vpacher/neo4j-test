@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Volker Pacher"]
   s.email       = ["volker.pacher@gmail.com"]
   s.homepage    = "https://github.com/vpacher/neo4j-test"
-  s.summary     = "The neo4j jar files for the impermanent database v#{Neo4j::Community::NEO_VERSION}"
+  s.summary     = "The neo4j jar files for the impermanent database v#{Neo4j::Test::NEO_VERSION}"
   s.description = "The Java Jar files for the Neo4j Impermanent graph database "
 
    s.files         = `git ls-files`.split("\n")
@@ -20,4 +20,4 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_development_dependency "rake"
- nd
+ end
